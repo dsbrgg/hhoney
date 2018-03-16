@@ -1,0 +1,94 @@
+#logo-new {
+	content : url(../img/hhoney-logo2-single-transparent.png);
+}
+
+#logo-old {
+	content : url(../img/hhoney-logo-single-transparent.png);
+}
+
+.center-new {
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 42%;
+}
+
+.center-old {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+}
+
+.text {
+    font-family: 'Anton', sans-serif;
+}
+
+.text-topic-sizes {
+    margin-top : 1.5rem;
+    margin-bottom : 1.5rem;
+    font-size: 1.5em;
+}
+
+.text-info-sizes {
+    margin-top : 1.5rem;
+    margin-bottom : 1.5rem;
+    margin-left : 0.1rem;
+    font-size: 1.2em;
+}
+
+.text-float {
+    float : right;
+}
+
+.bg-body {
+    background-color: firebrick;
+    
+}
+
+.bg-contact {
+    background-color: green;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .text-topic-sizes {
+        margin-top : 2.5rem;
+        margin-bottom : 1.5rem;
+        font-size: 1.5em;
+    }
+    
+    .text-info-sizes {
+        margin-top : 1rem;
+        margin-bottom : 1rem;
+        font-size: 1.2em;
+    }
+    
+    .center-new {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: 42%;
+    }
+
+    .center-old {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+    }
+
+}
