@@ -7,18 +7,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
 
 		<!-- load bootstrap -->
-        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/hhoney.css" />
 
 		<!-- load angular -->
 		<script src="js/angular.min.js"></script>
 		<script src="js/angular-route.min.js"></script>
-		<script src="core.js"></script>
+		<script src="build/bundle.min.js"></script>
 	</head>
-	<body class="bg-body">
-		<div class="container-fluid">
-			<div ng-view></div>
-		</div>
+	<body>
+		<div class="h-container" ng-view></div>
 	</body>
 </html>

@@ -15,7 +15,6 @@ core.config(function($routeProvider, $locationProvider) {
 core.controller('mainController', ['$scope', '$filter', '$log',
 	function($scope, $filter, $log) {
         $scope.generalInfo = {
-            contact : 'CONTACTO :',
             email   : 'hawaiianhoney@bol.com.br',
             number  : '(351) 912 340 636',
             sign    : 'Abelhinha Inc. ©'
